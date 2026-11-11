@@ -6,7 +6,9 @@ Buy the Handheld Vacuum in Modded Shop, then assign it in Equipment.
 
 Install [Moon Sweepers Mod Loader](https://github.com/swooping-mods/moon-sweepers-mod-loader) first.
 
-Download [handheld-vacuum-0.2.0.msmod](content/handheld-vacuum-0.2.0.msmod), import it with **Install mod package**, then select the mod and its required frameworks.
+Download [handheld-vacuum-0.2.0.msmod](content/handheld-vacuum-0.2.0.msmod), then drag and drop the `.msmod` file onto the [Moon Sweepers Mod Loader](https://github.com/swooping-mods/moon-sweepers-mod-loader) window. You can also use **Add mods…** (older loader builds: **Install mod package**).
+
+Select the mod and its required frameworks, click **Prepare files**, then **Launch**.
 
 Required mods: [shop-framework](https://github.com/swooping-mods/shop-framework), [equipment-framework](https://github.com/swooping-mods/equipment-framework), [hints-framework](https://github.com/swooping-mods/hints-framework).
 
