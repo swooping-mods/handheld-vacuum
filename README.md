@@ -1,5 +1,7 @@
 # Handheld Vacuum
 
+<img src="media/icon.png" alt="Handheld Vacuum icon" width="128" height="128">
+
 Buy the Handheld Vacuum in Modded Shop, then assign it in Equipment.
 
 ## Install
