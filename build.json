@@ -1,0 +1,6 @@
+{
+  "schema": "moon-independent-build-spec/v1",
+  "id": "handheld-vacuum",
+  "kind": "native",
+  "entry": "mods/handheld-vacuum/mod.c"
+}

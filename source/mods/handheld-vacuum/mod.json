@@ -1,0 +1,34 @@
+{
+  "id": "handheld-vacuum",
+  "kind": "native",
+  "version": "0.2.0",
+  "display_name": "Handheld Vacuum",
+  "gameplay": true,
+  "feature_dependencies": [
+    "shop-framework",
+    "equipment-framework",
+    "hints-framework"
+  ],
+  "play_help": [
+    "Buy the Handheld Vacuum in Modded Shop, then assign it in Equipment.",
+    "Select its hotbar slot and hold R to collect dust capsules.",
+    "Native shop/equipment integration implemented; gameplay testing deferred."
+  ],
+  "requires_apis": [
+    {
+      "api": "shop-framework.shop",
+      "abi": 1,
+      "min_size": 56
+    },
+    {
+      "api": "equipment-framework.equipment",
+      "abi": 1,
+      "min_size": 32
+    },
+    {
+      "api": "hints-framework.hints",
+      "abi": 1,
+      "min_size": 24
+    }
+  ]
+}
