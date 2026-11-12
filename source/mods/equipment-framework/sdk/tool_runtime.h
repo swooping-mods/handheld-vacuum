@@ -116,6 +116,9 @@ static inline PTR tt_primitive(PTR parent,int shape,SPVec3 p,SPVec3 scale,PTR ma
 static inline int tt_ray(SPVec3 origin,SPVec3 direction,float range,unsigned char *hit){int ok=1,mask=~(1<<2),trigger=1;su_zero(hit,64);void *a[]={&origin,&direction,hit,&range,&mask,&trigger};PTR v=call(su.physics_ray,0,a,&ok);return ok&&v&&*(unsigned char *)unbox(v);}
 static void tt_teardown(void){feature_drop();if(tt.hints)tt.hints->clear(TOOL_ID);su_drop(&tt.world);su_drop(&tt.camera);su_drop(&tt.walker);tt.owned=tt.invalid_state=tt.visible=tt.authority_set=tt.authority=tt.suspended=0;tt.store_root[0]=tt.store_name[0]=0;tt.status=0;tt_event("world-teardown");}
 static int tt_context(PTR world,PTR walker){
+#ifdef TOOL_CONTEXT_ADMIT
+    if(!TOOL_CONTEXT_ADMIT(walker))return 0;
+#endif
     if(tt.thread&&tt.thread!=GetCurrentThreadId())return 0;tt.thread=GetCurrentThreadId();PTR camera=0;field_value(walker,tt.camera_field,&camera);
     if(tt.world&&(world!=su_get(tt.world)||walker!=su_get(tt.walker)||camera!=su_get(tt.camera)||!su_alive(world)))tt_teardown();
     if(!world||!su_alive(world)||!su_alive(camera))return 0;int ok=1;if(boolean(tt.restoring,world,&ok)||!ok)return 0;

@@ -1,91 +1,157 @@
 {
   "schema": "mod-source-hashes/v1",
+  "source_sync": {
+    "workshop_revision": "ca32bbf79ce0840d5166a232bdb3a9fdcd761254",
+    "source_version": "0.2.1",
+    "payload_version": "0.2.0",
+    "compiled": false,
+    "gameplay_requalified": false,
+    "production_closure_complete": true,
+    "deferred_test_fixture_gaps": []
+  },
   "source_files": {
     "mods/equipment-framework/sdk/client.h": {
-      "export_sha256": "a10bc1da5ba3b573edb71db3ea391de6c458df33519394f981488ccf2af344f1"
+      "source_sha256": "49e2083501a2674f6ddd3900b4ba6738d3360c4d12cde9eb7fee7a3f601fc4d3",
+      "export_sha256": "49e2083501a2674f6ddd3900b4ba6738d3360c4d12cde9eb7fee7a3f601fc4d3"
     },
     "mods/equipment-framework/sdk/equipment.h": {
+      "source_sha256": "e59e6bfcc8420e1a1b353d67e630943ad999424bfe5433ea0e4e4661c8fe4151",
       "export_sha256": "e59e6bfcc8420e1a1b353d67e630943ad999424bfe5433ea0e4e4661c8fe4151"
     },
+    "mods/equipment-framework/sdk/menu_cleanup.h": {
+      "source_sha256": "8e4c43f982c9b6d018e5263aa7bd6a421d22a67a110576eaf8fd11f9c371808f",
+      "export_sha256": "8e4c43f982c9b6d018e5263aa7bd6a421d22a67a110576eaf8fd11f9c371808f"
+    },
     "mods/equipment-framework/sdk/tool_runtime.h": {
-      "export_sha256": "59f6aa1f822dadd49d3c60e8e184411c83fc7c6d681a79114d117b92f87ae9eb"
+      "source_sha256": "bf1f45f581aff2f1248919ade0d9b446f72e890e4f2ddb6bd79232547ff0f138",
+      "export_sha256": "bf1f45f581aff2f1248919ade0d9b446f72e890e4f2ddb6bd79232547ff0f138"
+    },
+    "mods/handheld-vacuum/container_hint.h": {
+      "source_sha256": "d9b90b97ce09f06533e2b05c715c38ad6d81d16edffb022a30a970ea36dcb7b5",
+      "export_sha256": "d9b90b97ce09f06533e2b05c715c38ad6d81d16edffb022a30a970ea36dcb7b5"
+    },
+    "mods/handheld-vacuum/container_link.h": {
+      "source_sha256": "9786b7f10578c4acf8ad11ae3affd633bf5ffdb3d9402fa65b938022182d4fbe",
+      "export_sha256": "9786b7f10578c4acf8ad11ae3affd633bf5ffdb3d9402fa65b938022182d4fbe"
+    },
+    "mods/handheld-vacuum/container_native.h": {
+      "source_sha256": "18e53eb3c40726e502130cd8035d4854875077d4488327b14b69c6190c107129",
+      "export_sha256": "18e53eb3c40726e502130cd8035d4854875077d4488327b14b69c6190c107129"
+    },
+    "mods/handheld-vacuum/container_recovery.h": {
+      "source_sha256": "a0f3cbed08ead51a9590193c67c9b4288012d6c0ca5c27af55d59722b1f11efa",
+      "export_sha256": "a0f3cbed08ead51a9590193c67c9b4288012d6c0ca5c27af55d59722b1f11efa"
     },
     "mods/handheld-vacuum/mod.c": {
-      "export_sha256": "7c17e7dc4025796094985fb478be3aa8f7b929883ba6b73ea2aa25674136d9f7"
+      "source_sha256": "6d851cb62258bb14c5bcdf58407de6207fc3f45464b2ec9b847a538f0530592b",
+      "export_sha256": "6d851cb62258bb14c5bcdf58407de6207fc3f45464b2ec9b847a538f0530592b"
     },
     "mods/handheld-vacuum/mod.json": {
-      "export_sha256": "6ca5f60dcf8152340428262defbe55b2909760bffb94e33f4212e683a8a1b5ca"
+      "source_sha256": "f1b23cf32c979f5a55846c765cc71f259aabb731dcfe65d327bb360abbc6fd54",
+      "export_sha256": "ef3958f2ecae093c53dd01169ce101c3457102155b9e7939dbcceb76825b2c1c"
     },
     "mods/handheld-vacuum/shop_signal.h": {
+      "source_sha256": "125c88f6455fc488f1037e34c04354207c4b6aa8cd7bbab5a2a730cc798997e0",
       "export_sha256": "125c88f6455fc488f1037e34c04354207c4b6aa8cd7bbab5a2a730cc798997e0"
     },
     "mods/handheld-vacuum/tool_runtime.h": {
-      "export_sha256": "2d72d00937d10bc5530010eee16ca27f556cbf492278b84769df0c52b8b19e8e"
+      "source_sha256": "1fa85c004a232bb5aa45d9ee94267fac1eb01cf5280692e7d1db9ddf3046fdb5",
+      "export_sha256": "1fa85c004a232bb5aa45d9ee94267fac1eb01cf5280692e7d1db9ddf3046fdb5"
     },
     "mods/handheld-vacuum/unity.h": {
+      "source_sha256": "ff4fea64236f4269ea57571492c84cb58164eaab7a597cd7983b9d5ed3b99709",
       "export_sha256": "ff4fea64236f4269ea57571492c84cb58164eaab7a597cd7983b9d5ed3b99709"
     },
     "mods/hints-framework/sdk/client.h": {
-      "export_sha256": "4e62b61016a5e2641c62fca9a33a60cd2cddeb8ca71485454c3655bc49c56edc"
+      "source_sha256": "508337fbe140b432546e6a19e2cb1e2d50e6cd328dccb4ad43d26a02036f5f17",
+      "export_sha256": "508337fbe140b432546e6a19e2cb1e2d50e6cd328dccb4ad43d26a02036f5f17"
     },
     "mods/hints-framework/sdk/hints.h": {
+      "source_sha256": "9a80fd44546c6da91a1f0a7bb60f90489074aff634a3d80a6c36f9f9431e3862",
       "export_sha256": "9a80fd44546c6da91a1f0a7bb60f90489074aff634a3d80a6c36f9f9431e3862"
     },
+    "mods/hints-framework/sdk/presentation.h": {
+      "source_sha256": "e92058d60357442a2f21eea6b11e169dda77aaf2cd3f03bb083322db0d0f60bd",
+      "export_sha256": "e92058d60357442a2f21eea6b11e169dda77aaf2cd3f03bb083322db0d0f60bd"
+    },
     "mods/shop-framework/client.h": {
+      "source_sha256": "8de5a1f8ce52efb24c8e8fafa27d1bc948346c12d172fe7c750cc0d42c81b736",
       "export_sha256": "8de5a1f8ce52efb24c8e8fafa27d1bc948346c12d172fe7c750cc0d42c81b736"
     },
     "mods/shop-framework/sdk.h": {
+      "source_sha256": "cb43ee8e2cce48e9d82fc1fb432395f506dbd11cb2b3f226ce53d0f2fafca7fb",
       "export_sha256": "cb43ee8e2cce48e9d82fc1fb432395f506dbd11cb2b3f226ce53d0f2fafca7fb"
     },
     "runtime/native/gameplay.h": {
-      "export_sha256": "7676362469a7972f54f9c7304d41d32396b4f81cc9a9f9935983c54b90cb061d"
+      "source_sha256": "07418f6e84e7c9393e804d49e680f6537ab99ae6a164dc046cdceaedc7bc5f13",
+      "export_sha256": "07418f6e84e7c9393e804d49e680f6537ab99ae6a164dc046cdceaedc7bc5f13"
     },
     "runtime/native/hook_context.h": {
+      "source_sha256": "28f6c6502f3b4d6e8ae02c06e60b6d3b7f1b8674d0a5f20ac42664ea3133d016",
       "export_sha256": "28f6c6502f3b4d6e8ae02c06e60b6d3b7f1b8674d0a5f20ac42664ea3133d016"
     },
     "runtime/native/hook_engine.h": {
+      "source_sha256": "2cea82d754c1792bc3eddfba10261c7de7eb0a33316cc5d1aa28a99ee78882df",
       "export_sha256": "2cea82d754c1792bc3eddfba10261c7de7eb0a33316cc5d1aa28a99ee78882df"
     },
     "runtime/native/input.h": {
+      "source_sha256": "75e2f0cf8b8df54256a647d3f6b42d90b6ae2fcc48268ba73b974fa7cbc6c6bd",
       "export_sha256": "75e2f0cf8b8df54256a647d3f6b42d90b6ae2fcc48268ba73b974fa7cbc6c6bd"
     },
+    "runtime/native/local_actor.h": {
+      "source_sha256": "d16cbfeef20df121d4bffb53b6a0f7da91ee664f070c4a2af0e0da70145b40e5",
+      "export_sha256": "d16cbfeef20df121d4bffb53b6a0f7da91ee664f070c4a2af0e0da70145b40e5"
+    },
     "runtime/native/services.h": {
+      "source_sha256": "1178e09c77f30f53bbccbfbacf8771e5faad1cf79753703d90dfd0a1e0fbadeb",
       "export_sha256": "1178e09c77f30f53bbccbfbacf8771e5faad1cf79753703d90dfd0a1e0fbadeb"
     },
     "runtime/sdk/context.h": {
+      "source_sha256": "6c84145cc761550c4943aa10c52242a538e92243f79a1b20c65b6a4ef9e82605",
       "export_sha256": "6c84145cc761550c4943aa10c52242a538e92243f79a1b20c65b6a4ef9e82605"
     },
     "runtime/sdk/hooks.h": {
+      "source_sha256": "7c006f1254dd6a130f56dac499ba8196fb84ee4883443ee4f12d601534df56ec",
       "export_sha256": "7c006f1254dd6a130f56dac499ba8196fb84ee4883443ee4f12d601534df56ec"
     },
     "runtime/sdk/input.h": {
+      "source_sha256": "33739269793e88776c6f611a05e19ade01bd8326a115d38a0eec71ff64344ac8",
       "export_sha256": "33739269793e88776c6f611a05e19ade01bd8326a115d38a0eec71ff64344ac8"
     },
     "runtime/sdk/input_host.h": {
+      "source_sha256": "8d3f59ed3e21bdb7c7528737dd263b234c65e05b481a142eaf5f33f70604e0cb",
       "export_sha256": "8d3f59ed3e21bdb7c7528737dd263b234c65e05b481a142eaf5f33f70604e0cb"
     },
     "runtime/sdk/input_registry.h": {
+      "source_sha256": "53cf344e49ff195b3f0a4f35078d6dde84693a895eb4030734d218cc692bc7fe",
       "export_sha256": "53cf344e49ff195b3f0a4f35078d6dde84693a895eb4030734d218cc692bc7fe"
     },
     "runtime/sdk/native_adapters/raycast_layout.h": {
+      "source_sha256": "7ba81c9a223b6dc8a7172650ba12dde0a3a5fd99f3844e46bbf1a53f5d1cf25a",
       "export_sha256": "7ba81c9a223b6dc8a7172650ba12dde0a3a5fd99f3844e46bbf1a53f5d1cf25a"
     },
     "runtime/sdk/native_adapters/unity.h": {
-      "export_sha256": "fc1ed6c1d70f0de9c24515c50b2b53eaaf45f5942ce71a7c9e1c2c6548b0c2aa"
+      "source_sha256": "092810650b7383e5fc4a2876c9c411db578069ee79da536c57569cd47910b3d8",
+      "export_sha256": "092810650b7383e5fc4a2876c9c411db578069ee79da536c57569cd47910b3d8"
     },
     "runtime/sdk/services.h": {
+      "source_sha256": "72de584c98cf0ca6367f5decd4416c78fa4eeea44b4b48401d0737a44b2c7a2b",
       "export_sha256": "72de584c98cf0ca6367f5decd4416c78fa4eeea44b4b48401d0737a44b2c7a2b"
     },
     "runtime/sdk/services_client.h": {
+      "source_sha256": "17f670371f5798457301b14c046daa99632c9685cc2c5f78921c3fe53d095479",
       "export_sha256": "17f670371f5798457301b14c046daa99632c9685cc2c5f78921c3fe53d095479"
     },
     "runtime/sdk/storage.h": {
+      "source_sha256": "c95b63653b564fb67d5385ec76abf80582daee82aa8da03178350c97cfb29a2b",
       "export_sha256": "c95b63653b564fb67d5385ec76abf80582daee82aa8da03178350c97cfb29a2b"
     },
     "runtime/sdk/vehicle_input.h": {
+      "source_sha256": "6af332b456ff9fb74e96a6e963a8cf9627bd51a8edca55f07b6e5a829b9da790",
       "export_sha256": "6af332b456ff9fb74e96a6e963a8cf9627bd51a8edca55f07b6e5a829b9da790"
     },
     "runtime/sdk/wallet.h": {
+      "source_sha256": "04f19f23ca6f51f015716362103c5936b972d90fbafd6447ff84853836e9cf22",
       "export_sha256": "04f19f23ca6f51f015716362103c5936b972d90fbafd6447ff84853836e9cf22"
     }
   }

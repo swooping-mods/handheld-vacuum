@@ -1,7 +1,7 @@
 {
   "id": "handheld-vacuum",
   "kind": "native",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "display_name": "Handheld Vacuum",
   "gameplay": true,
   "feature_dependencies": [
